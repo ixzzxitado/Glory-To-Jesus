@@ -6,7 +6,6 @@ violet="\033[0;49;95m"
 blue="\033[0;49;96m"
 white="\033[0;49;97m"
 PS1='\[\e[33m\]ptf > \[\e[0m\] '
-source mtlib.sh
 bash loading.sh
 clear
 python chb.py

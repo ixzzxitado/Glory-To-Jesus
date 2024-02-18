@@ -51,9 +51,9 @@ then
 	clear
 	echo -e $green "Type it > ptfinput < to start console!"
 	chmod +x *
-	mkdir /data/data/com.termux/files/usr/opt/PENTROID
+	mkdir $HOME/Pentroid
 	mv ptfinput /data/data/com.termux/files/usr/bin
-	mv * /data/data/com.termux/files/usr/opt/PENTROID
+	mv * $HOME/Pentroid
 else
 	clear
 	echo -e $red "goodbye :("

@@ -413,7 +413,7 @@ ptfloit(){
 					read -p "Name your exploit: " name
 					timex=$(date +%H:%M:%S)
 					datex=$(date +%d/%m/%y)
-					echo "The date & time now: "
+					echo "The date & time now: " ; echo ""
 					echo -en $timex $datex
 					read -p "Type it the date of the discovery of this exploit: " date
 					read -p "Name the plataform: " os

@@ -1,6 +1,1 @@
-#!/data/data/com.termux/files/usr/bin/bash
-source $HOME/Pentroid/mtlib.sh
-quit(){
-  exit 0
-}
-quit
+bash $HOME/Pentroid/mtlib.sh

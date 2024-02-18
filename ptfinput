@@ -1,2 +1,2 @@
-bash /data/data/com.termux/files/usr/opt/PENTROID/mtliv.sh
+bash /data/data/com.termux/files/usr/opt/PENTROID/mtlib.sh
 export PS1='\[\e[33m\]ptf > \[\e[0m\] '

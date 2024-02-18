@@ -407,7 +407,7 @@ ptfloit(){
 	export PS1='\[\e[33m\]ptf \[\e[96m\]ptfloit > \[\e[0m\] \[\e[0m\] '
 	case "$1" in
 		create | --crate)
-		export PS1='\[\e[33m\]ptf \[\e[91m\]create \[\e[0m\]> \[\e[0m\] '
+		export PS1='\[\e[33m\]ptf \[\e[96m\]ptfloit \[\e[91m\]create \[\e[0m\]> \[\e[0m\] \[\e[0m\]'
 			case "$2" in
 				exploit | --exploited)
 					read -p "Name your exploit: " name

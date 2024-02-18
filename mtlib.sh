@@ -10,6 +10,8 @@ bash loading.sh
 clear
 python chb.py
 python essec.py
+echo ""
+echo "type it > phelp < to view the pentroid options"
 namewrt(){
 	case "$1" in
 		-a | --add)

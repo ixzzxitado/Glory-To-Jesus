@@ -1,2 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 echo -e "source /data/data/com.termux/files/usr/opt/PENTROID/mtlib.sh\n" >> /data/data/com.termux/files/usr/etc/bash.bashrc
+quit(){
+  exit 0
+}
+quit

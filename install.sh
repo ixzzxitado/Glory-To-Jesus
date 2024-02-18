@@ -52,7 +52,7 @@ then
 	echo -e $green "Type it > ptfinput < to start console!"
 	chmod +x *
 	mkdir $HOME/Pentroid
-	mv * $HOME/Pentroid ; echo "alias ptfinput='cd $HOME/Pentroid ; source mtlib.sh'" >> /data/data/com.termux/files/home/bash.bashrc
+	mv * $HOME/Pentroid ; echo "alias ptfinput='cd $HOME/Pentroid ; source mtlib.sh'" >> /data/data/com.termux/files/home/usr/etc/bash.bashrc
 
 else
 	clear

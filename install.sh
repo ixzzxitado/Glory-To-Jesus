@@ -49,7 +49,7 @@ then
 	read -p ">>>>>>press enter to enter in the termux-api page<<<<<<"
 	am start -a android.intent.action.VIEW -d https://github.com/termux/termux-api/releases
 	clear
-	echo -e $green "Type it > ptfinput < to start console!"
+	echo -e $green "Restart Termux And Type it > ptfinput < to start console!"
 	chmod +x *
 	mkdir $HOME/Pentroid
 	mv * $HOME/Pentroid ; echo "alias ptfinput='cd $HOME/Pentroid ; source mtlib.sh'" >> /data/data/com.termux/files/usr/etc/bash.bashrc

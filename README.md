@@ -3,7 +3,7 @@
 # Pentroid Framework
 
 ```console
-pkg update -y ; pkg upgrade ; pkg install git ; git clone https://github.com/ixzzxitado/Glory-To-Jesus ; cd Glory-To-Jesus ; bash install.sh
+pkg update -y ; pkg upgrade ; pkg install git ; git clone https://github.com/z4kc/Glory-To-Jesus ; cd Glory-To-Jesus ; bash install.sh
 ```
 
 # DISCLAIMER!!

@@ -18,7 +18,7 @@ echo $banner ██████╗░████████╗█████�
 echo $banner ██╔══██╗╚══██╔══╝██╔════╝
 echo $banner ██████╔╝░░░██║░░░█████╗░░ 
 echo $banner ██╔═══╝░░░░██║░░░██╔══╝░░ 
-echo $banner ██║░░░░░░░░██║░░░██║░░░░░by @ixzzxitado
+echo $banner ██║░░░░░░░░██║░░░██║░░░░░
 echo $banner ╚═╝░░░░░░░░╚═╝░░░╚═╝░░░░░ 
 echo -e "\033[m"
 echo ""
@@ -40,8 +40,8 @@ then
 	pkg install toilet
 	pkg install figlet
 	pkg install git
-	git clone https://github.com/ixzzxitado/tips
-	git clone https://github.com/ixzzxitado/banners
+	git clone https://github.com/w3irdguy/tips
+	git clone https://github.com/w3irdguy/banners
 	clear
 	echo -e $green "GO TO BELOW OF PAGE, GO TO \033[m$red Assets\033[m $green AND CLICK IN \033[m$red termux-api_v0.50.1+github-debug.apk\033[m $green AND INSTALL IT!!"
 	echo ""
